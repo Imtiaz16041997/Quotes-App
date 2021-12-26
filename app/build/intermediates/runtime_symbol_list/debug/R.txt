@@ -1813,6 +1813,7 @@ int drawable design_ic_visibility 0x7f070063
 int drawable design_ic_visibility_off 0x7f070064
 int drawable design_password_eye 0x7f070065
 int drawable design_snackbar_background 0x7f070066
+int drawable ic_baseline_search 0x7f070095
 int drawable ic_baseline_share 0x7f070067
 int drawable ic_clock_black_24dp 0x7f070068
 int drawable ic_keyboard_black_24dp 0x7f070069
@@ -1926,6 +1927,7 @@ int id action_menu_presenter 0x7f08003f
 int id action_mode_bar 0x7f080040
 int id action_mode_bar_stub 0x7f080041
 int id action_mode_close_button 0x7f080042
+int id action_search 0x7f0801e3
 int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
@@ -2497,6 +2499,7 @@ int layout text_view_with_theme_line_height 0x7f0b0070
 int layout text_view_without_line_height 0x7f0b0071
 int menu example_menu 0x7f0c0000
 int menu example_menu2 0x7f0c0001
+int menu menu 0x7f0c0002
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
@@ -5246,6 +5249,7 @@ int styleable ViewTransition_upDuration 13
 int styleable ViewTransition_viewTransitionMode 14
 int[] styleable include { 0x7f0300e6 }
 int styleable include_constraintSet 0
+int xml searchable 0x7f130005
 int xml standalone_badge 0x7f130000
 int xml standalone_badge_gravity_bottom_end 0x7f130001
 int xml standalone_badge_gravity_bottom_start 0x7f130002

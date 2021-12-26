@@ -8,50 +8,11 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Quotes"-->
-<!--        android:textSize="60dp"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textStyle="bold"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:gravity="center"-->
-<!--        android:fontFamily="sans-serif-condensed-medium"-->
-<!--        android:layout_marginTop="50sp"/>-->
-
-<!--    <com.airbnb.lottie.LottieAnimationView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="450dp"-->
-<!--        app:lottie_autoPlay="true"-->
-<!--        app:lottie_loop="true"-->
-<!--        app:lottie_rawRes="@raw/jump_quote" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:gravity="center"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:fontFamily="sans-serif-light"-->
-<!--        android:layout_marginTop="5dp"-->
-<!--        android:text="Ibnul Imtiaz"-->
-<!--        />-->
-
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView3"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:text="" />-->
-
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:id="@+id/recyclerView"
         android:layout_height="match_parent"/>
+
 
 
 

@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,16 +19,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.imtiaz.quotes.R;
 import com.imtiaz.quotes.model.QuotesModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHolder>  {
+public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHolder> implements Filterable {
     Context context;
-    List<QuotesModel> quotes ;
+    ArrayList<QuotesModel> quotes;
+    ArrayList<QuotesModel> backup;
 
 
-    public QuotesAdapter(List<QuotesModel> quotes,Context context) {
+
+    public QuotesAdapter(ArrayList<QuotesModel> quotes,Context context) {
         this.quotes = quotes;
         this.context = context;
+        backup = new ArrayList<QuotesModel>(quotes);
     }
 
     @NonNull
@@ -78,6 +84,44 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
     public int getItemCount() {
         return quotes.size();
     }
+
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter=new Filter() {
+        @Override
+        // background thread
+        protected FilterResults performFiltering(CharSequence keyword)
+        {
+            ArrayList<QuotesModel> filtereddata=new ArrayList<>();
+
+            if(keyword.toString().isEmpty())
+                filtereddata.addAll(backup);
+            else
+            {
+                for(QuotesModel obj : backup)
+                {
+                    if(obj.getText().toString().toLowerCase().contains(keyword.toString().toLowerCase()))
+                        filtereddata.add(obj);
+                }
+            }
+
+            FilterResults results=new FilterResults();
+            results.values=filtereddata;
+            return results;
+        }
+
+        @Override  // main UI thread
+        protected void publishResults(CharSequence constraint, FilterResults results)
+        {
+            quotes.clear();
+            quotes.addAll((ArrayList<QuotesModel>)results.values);
+            notifyDataSetChanged();
+        }
+    };
+
 
     class myViewHolder extends RecyclerView.ViewHolder{
         TextView textView_Quotes,textView_Author,textView_Quotes_ID;

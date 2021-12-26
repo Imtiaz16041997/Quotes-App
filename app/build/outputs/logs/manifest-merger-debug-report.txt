@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\imtia\.gradle\caches\transforms-3\1508bc0f4d67cb1fb46dec23183d0585\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\imtia\.gradle\caches\transforms-3\66bbb9fe8c9e1863a78a4ee4625746ef\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\imtia\.gradle\caches\transforms-3\ec212f8f8fb362e7c175496fb40c5c9c\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:2:1-11:12
@@ -44,20 +44,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\imtia\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\30559646bdc9f3290097ba378eb99203\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\b618f929228947d1fd03b4a852d85b00\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\imtia\.gradle\caches\transforms-3\b521f32a8ca2115704fce9eaa65230c1\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:2:11-69
@@ -66,7 +66,7 @@ ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:4:18-60
 application
-ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\imtia\.gradle\caches\transforms-3\1508bc0f4d67cb1fb46dec23183d0585\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\imtia\.gradle\caches\transforms-3\1508bc0f4d67cb1fb46dec23183d0585\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\imtia\.gradle\caches\transforms-3\66bbb9fe8c9e1863a78a4ee4625746ef\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -98,7 +98,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\imtia\.gradle\cach
 	android:theme
 		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:11:9-44
 activity#com.imtiaz.quotes.MainActivity
-ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:12:9-22:20
 	android:exported
 		ADDED from C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
