@@ -8,6 +8,13 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.SearchView
+        android:background="@color/white"
+        android:layout_margin="8dp"
+        android:id="@+id/search_View"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:id="@+id/recyclerView"

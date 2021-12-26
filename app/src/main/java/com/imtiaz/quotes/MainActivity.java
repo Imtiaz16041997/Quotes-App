@@ -4,13 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
-import android.app.SearchManager;
-import android.content.Context;
+import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-
 import androidx.appcompat.widget.SearchView;
 import com.imtiaz.quotes.adapter.QuotesAdapter;
 import com.imtiaz.quotes.model.QuotesModel;
@@ -26,16 +21,47 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     QuotesAdapter adapter;
+    ProgressDialog progressDialog;
+    SearchView search_View;
+    ArrayList<QuotesModel> quotes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        search_View = findViewById(R.id.search_View);
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("Fetching The Quotes ....");
+        progressDialog.show();
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2,LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(staggeredGridLayoutManager);
         processdata();
+
+        search_View.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                filter(newText);
+                return true;
+            }
+        });
+    }
+
+    private void filter(String newText) {
+        List<QuotesModel> filteredList = new ArrayList<>();
+
+        for(QuotesModel item : git){
+            if(item.getText().toLowerCase().contains(newText.toLowerCase())){
+                filteredList.add(item);
+            }
+        }
+        adapter.filterList(filteredList);
     }
 
     private void processdata() {
@@ -52,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 List<QuotesModel> quotes = response.body();
                 adapter = new QuotesAdapter((ArrayList<QuotesModel>) quotes,MainActivity.this);
                 recyclerView.setAdapter(adapter);
+                progressDialog.dismiss();
 //                adapter.notifyDataSetChanged();
             }
 
@@ -63,30 +90,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        getMenuInflater().inflate(R.menu.menu,menu);
-        MenuItem item=menu.findItem(R.id.action_search);
-
-        SearchView searchView=(SearchView)item.getActionView();
-
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText)
-            {
-                adapter.getFilter().filter(newText);
-                return false;
-            }
-        });
-
-        return super.onCreateOptionsMenu(menu);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu)
+//    {
+//        getMenuInflater().inflate(R.menu.menu,menu);
+//        MenuItem item=menu.findItem(R.id.action_search);
+//
+//        SearchView searchView=(SearchView)item.getActionView();
+//
+//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//            @Override
+//            public boolean onQueryTextSubmit(String query) {
+//                return false;
+//            }
+//
+//            @Override
+//            public boolean onQueryTextChange(String newText)
+//            {
+//                adapter.getFilter().filter(newText);
+//                return false;
+//            }
+//        });
+//
+//        return super.onCreateOptionsMenu(menu);
+//    }
 
 
 }

@@ -22,15 +22,15 @@ import com.imtiaz.quotes.model.QuotesModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHolder> implements Filterable {
+public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHolder>  {
     Context context;
     ArrayList<QuotesModel> quotes;
-    ArrayList<QuotesModel> backup;
+//    ArrayList<QuotesModel> backup;
 
     public QuotesAdapter(ArrayList<QuotesModel> quotes,Context context) {
         this.quotes = quotes;
         this.context = context;
-        backup = new ArrayList<QuotesModel>(quotes);
+//        backup = new ArrayList<>(quotes);
     }
 
     @NonNull
@@ -44,9 +44,9 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
     public void onBindViewHolder(@NonNull myViewHolder holder, int position) {
 
         //Problem is here
-//        TextView access$000 = holder.textView_Quotes_ID;
-//        position = position+1;
-//        access$000.setText(""+ position );
+        TextView access$000 = holder.textView_Quotes_ID;
+        position = position+1;
+        access$000.setText(""+ position );
         holder.textView_Quotes.setText(quotes.get(position).getText());
         String text = holder.textView_Quotes.getText().toString();
         holder.textView_Author.setText(quotes.get(position).getAuthor());
@@ -83,43 +83,49 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
         return quotes.size();
     }
 
-    @Override
-    public Filter getFilter() {
-        return filter;
+    public void filterList(List<QuotesModel> filteredList){
+            quotes = filteredList;
     }
 
-    Filter filter=new Filter() {
-        @Override
-        // background thread
-        protected FilterResults performFiltering(CharSequence keyword)
-        {
-            ArrayList<QuotesModel> filtereddata=new ArrayList<>();
+//    @Override
+//    public Filter getFilter() {
+//        return filter;
+//    }
 
-            if(keyword.toString().isEmpty())
-                filtereddata.addAll(backup);
-            else
-            {
-                String filterPattern = keyword.toString().toLowerCase().trim();
-                for(QuotesModel obj : backup)
-                {
-                    if(obj.getText().toLowerCase().contains(filterPattern))
-                        filtereddata.add(obj);
-                }
-            }
+//    Filter filter=new Filter() {
+//        @Override
+//        // background thread
+//        protected FilterResults performFiltering(CharSequence keyword)
+//        {
+//            ArrayList<QuotesModel> filtereddata=new ArrayList<>();
+//
+//            if(keyword.toString().isEmpty())
+//                filtereddata.addAll(backup);
+//            else
+//            {
+//                String filterPattern = keyword.toString().toLowerCase().trim();
+//                for(QuotesModel obj : backup)
+//                {
+//                    if(obj.getText().toLowerCase().contains(filterPattern) && obj.getAuthor().toLowerCase().contains(filterPattern))
+//                        filtereddata.add(obj);
+//                }
+//            }
+//
+//            FilterResults results=new FilterResults();
+//            results.values=filtereddata;
+//            return results;
+//        }
+//
+//        @Override  // main UI thread
+//        protected void publishResults(CharSequence constraint, FilterResults results)
+//        {
+//            quotes.clear();
+//            quotes.addAll((ArrayList<QuotesModel>)results.values);
+//            notifyDataSetChanged();
+//        }
+//    };
 
-            FilterResults results=new FilterResults();
-            results.values=filtereddata;
-            return results;
-        }
 
-        @Override  // main UI thread
-        protected void publishResults(CharSequence constraint, FilterResults results)
-        {
-            quotes.clear();
-            quotes.addAll((ArrayList<QuotesModel>)results.values);
-            notifyDataSetChanged();
-        }
-    };
 
 
     class myViewHolder extends RecyclerView.ViewHolder{

@@ -14,5 +14,4 @@ com/imtiaz/quotes/adapter/QuotesAdapter.java
  com.imtiaz.quotes.adapter.QuotesAdapter
  com.imtiaz.quotes.adapter.QuotesAdapter$1
  com.imtiaz.quotes.adapter.QuotesAdapter$2
- com.imtiaz.quotes.adapter.QuotesAdapter$3
  com.imtiaz.quotes.adapter.QuotesAdapter$myViewHolder
