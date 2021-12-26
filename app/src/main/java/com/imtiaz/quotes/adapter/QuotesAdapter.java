@@ -27,8 +27,6 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
     ArrayList<QuotesModel> quotes;
     ArrayList<QuotesModel> backup;
 
-
-
     public QuotesAdapter(ArrayList<QuotesModel> quotes,Context context) {
         this.quotes = quotes;
         this.context = context;
@@ -45,9 +43,10 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
     @Override
     public void onBindViewHolder(@NonNull myViewHolder holder, int position) {
 
-        TextView access$000 = holder.textView_Quotes_ID;
-        position = position+1;
-        access$000.setText(""+ position );
+        //Problem is here
+//        TextView access$000 = holder.textView_Quotes_ID;
+//        position = position+1;
+//        access$000.setText(""+ position );
         holder.textView_Quotes.setText(quotes.get(position).getText());
         String text = holder.textView_Quotes.getText().toString();
         holder.textView_Author.setText(quotes.get(position).getAuthor());
@@ -79,7 +78,6 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
         });
     }
 
-
     @Override
     public int getItemCount() {
         return quotes.size();
@@ -101,9 +99,10 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
                 filtereddata.addAll(backup);
             else
             {
+                String filterPattern = keyword.toString().toLowerCase().trim();
                 for(QuotesModel obj : backup)
                 {
-                    if(obj.getText().toString().toLowerCase().contains(keyword.toString().toLowerCase()))
+                    if(obj.getText().toLowerCase().contains(filterPattern))
                         filtereddata.add(obj);
                 }
             }

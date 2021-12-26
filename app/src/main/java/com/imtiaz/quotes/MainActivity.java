@@ -89,34 +89,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.menu, menu);
-//
-//        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-//        SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
-//
-//        searchView.setSearchableInfo(
-//                searchManager.getSearchableInfo(getComponentName())
-//        );
-//
-//        searchView.setIconifiedByDefault(false);
-//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-//            @Override
-//            public boolean onQueryTextSubmit(String s) {
-//                processdata();
-//                return false;
-//            }
-//
-//            @Override
-//            public boolean onQueryTextChange(String s) {
-//                processdata();
-//                return false;
-//            }
-//        });
-//
-//        return true;
-//    }
 }
