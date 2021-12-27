@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     QuotesAdapter adapter;
     ProgressDialog progressDialog;
     SearchView search_View;
-    ArrayList<QuotesModel> quotes;
+    List<QuotesModel> quotes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         search_View = findViewById(R.id.search_View);
         progressDialog = new ProgressDialog(this);
-        progressDialog.setTitle("Fetching The Quotes ....");
+        progressDialog.setTitle("Fetching The Quotes....");
         progressDialog.show();
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
@@ -56,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
     private void filter(String newText) {
         List<QuotesModel> filteredList = new ArrayList<>();
 
-        for(QuotesModel item : git){
-            if(item.getText().toLowerCase().contains(newText.toLowerCase())){
+        for(QuotesModel item : quotes){
+            if(item.getText().toLowerCase().contains(newText.toLowerCase()) || (item.getAuthor()+"").toLowerCase().contains(newText.toLowerCase())){
                 filteredList.add(item);
             }
         }
@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<QuotesModel>> call, Response<List<QuotesModel>> response) {
 
-                List<QuotesModel> quotes = response.body();
-                adapter = new QuotesAdapter((ArrayList<QuotesModel>) quotes,MainActivity.this);
+                quotes = response.body();
+                adapter = new QuotesAdapter((List<QuotesModel>) quotes,MainActivity.this);
                 recyclerView.setAdapter(adapter);
                 progressDialog.dismiss();
 //                adapter.notifyDataSetChanged();

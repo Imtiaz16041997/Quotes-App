@@ -1,0 +1,17 @@
+com/imtiaz/quotes/retrofit/quotesApi.java
+ com.imtiaz.quotes.retrofit.quotesApi
+com/imtiaz/quotes/BuildConfig.java
+ com.imtiaz.quotes.BuildConfig
+com/imtiaz/quotes/retrofit/ApiController.java
+ com.imtiaz.quotes.retrofit.ApiController
+com/imtiaz/quotes/model/QuotesModel.java
+ com.imtiaz.quotes.model.QuotesModel
+com/imtiaz/quotes/MainActivity.java
+ com.imtiaz.quotes.MainActivity
+ com.imtiaz.quotes.MainActivity$1
+ com.imtiaz.quotes.MainActivity$2
+com/imtiaz/quotes/adapter/QuotesAdapter.java
+ com.imtiaz.quotes.adapter.QuotesAdapter
+ com.imtiaz.quotes.adapter.QuotesAdapter$1
+ com.imtiaz.quotes.adapter.QuotesAdapter$2
+ com.imtiaz.quotes.adapter.QuotesAdapter$myViewHolder

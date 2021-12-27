@@ -24,10 +24,10 @@ import java.util.List;
 
 public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHolder>  {
     Context context;
-    ArrayList<QuotesModel> quotes;
+    List<QuotesModel> quotes;
 //    ArrayList<QuotesModel> backup;
 
-    public QuotesAdapter(ArrayList<QuotesModel> quotes,Context context) {
+    public QuotesAdapter(List<QuotesModel> quotes,Context context) {
         this.quotes = quotes;
         this.context = context;
 //        backup = new ArrayList<>(quotes);
@@ -44,9 +44,8 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
     public void onBindViewHolder(@NonNull myViewHolder holder, int position) {
 
         //Problem is here
-        TextView access$000 = holder.textView_Quotes_ID;
-        position = position+1;
-        access$000.setText(""+ position );
+        holder.textView_Quotes_ID.setText(String.valueOf(position+1));
+
         holder.textView_Quotes.setText(quotes.get(position).getText());
         String text = holder.textView_Quotes.getText().toString();
         holder.textView_Author.setText(quotes.get(position).getAuthor());
@@ -85,6 +84,7 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.myViewHold
 
     public void filterList(List<QuotesModel> filteredList){
             quotes = filteredList;
+            notifyDataSetChanged();
     }
 
 //    @Override
