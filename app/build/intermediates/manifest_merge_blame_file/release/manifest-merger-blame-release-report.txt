@@ -6,71 +6,79 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
+8-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml
+9-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:4:1-62
-11-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:4:18-60
+11-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:5:5-23:19
+13-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:7:5-30:19
 14        android:allowBackup="true"
-14-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:6:9-35
+14-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 15-->[androidx.core:core:1.7.0] C:\Users\imtia\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:7:9-43
+16        android:icon="@mipmap/quotes_launcher"
+16-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:9:9-47
 17        android:label="@string/app_name"
-17-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:10:9-41
+18        android:roundIcon="@mipmap/quotes_launcher_round"
+18-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:11:9-58
 19        android:supportsRtl="true"
-19-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:10:9-35
-20        android:theme="@style/Theme.Quotes" >
-20-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:11:9-44
+19-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:12:9-35
+20        android:theme="@style/Theme.AppCompat" >
+20-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:13:9-47
 21        <activity
-21-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:12:9-22:20
+21-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:14:9-17:15
 22            android:name="com.imtiaz.quotes.MainActivity"
-22-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:13:13-41
-23            android:exported="true" >
-23-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:16:17-69
-25-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:16:25-66
-26                <!-- <action android:name="android.intent.action.SEARCH"/> -->
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:18:17-77
-27-->C:\Users\imtia\AndroidStudioProjects\Quotes\app\src\main\AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29            <!-- <meta-data android:name="android.app.searchable" -->
-30            <!-- android:resource="@xml/searchable"/> -->
-31        </activity>
-32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-35            android:authorities="com.imtiaz.quotes.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\imtia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\imtia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\imtia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-43        </provider>
-44    </application>
-45
-46</manifest>
+22-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:15:13-41
+23            android:exported="false" />
+23-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:16:13-37
+24        <activity
+24-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:18:9-29:20
+25            android:name="com.imtiaz.quotes.OnboardScreen.IntroActivity"
+25-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:19:13-56
+26            android:exported="true"
+26-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:21:13-36
+27            android:theme="@style/ThemeNo.Quotes" >
+27-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:20:13-50
+28            <intent-filter>
+28-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:22:13-26:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:23:17-69
+29-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:23:25-66
+30                <!-- <action android:name="android.intent.action.SEARCH"/> -->
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:25:17-77
+31-->C:\Users\imtia\AndroidStudioProjects\Quotes-App\app\src\main\AndroidManifest.xml:25:27-74
+32            </intent-filter>
+33            <!-- <meta-data android:name="android.app.searchable" -->
+34            <!-- android:resource="@xml/searchable"/> -->
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+39            android:authorities="com.imtiaz.quotes.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\imtia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\imtia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\imtia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\imtia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>

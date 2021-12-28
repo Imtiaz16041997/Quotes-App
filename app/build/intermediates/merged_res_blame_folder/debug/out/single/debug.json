@@ -8,12 +8,12 @@
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_search.png"
     },
     {
-        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_quotes_launcher_round.png.flat",
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-xhdpi\\quotes_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_quotes_launcher.png.flat",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\drawable\\first.png"
     },
     {
-        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_share.png.flat",
-        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_share.png"
-    },
-    {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable_indicator_selected.xml.flat",
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\drawable\\indicator_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_share.png.flat",
+        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_share.png"
     },
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_baseline_search.xml.flat",
-        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_search.xml"
-    },
-    {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_share.png.flat",
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_share.png"
+    },
+    {
+        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_baseline_search.xml.flat",
+        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_search.xml"
     },
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_search.png.flat",
@@ -228,6 +228,10 @@
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_quotes_launcher_foreground.png.flat",
+        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-hdpi\\quotes_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_arrow_forward_black_24dp.png.flat",
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_forward_black_24dp.png"
     },
@@ -236,16 +240,12 @@
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_quotes_launcher_foreground.png.flat",
-        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-hdpi\\quotes_launcher_foreground.png"
+        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_quotes_launcher_round.png.flat",
+        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-hdpi\\quotes_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_quotes_launcher_round.png.flat",
-        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-hdpi\\quotes_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_baseline_search.png.flat",
@@ -306,10 +306,6 @@
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_quotes_launcher_round.png.flat",
         "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\mipmap-xxhdpi\\quotes_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\raw_jump_quote.json.flat",
-        "source": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\src\\main\\res\\raw\\jump_quote.json"
     },
     {
         "merged": "C:\\Users\\imtia\\AndroidStudioProjects\\Quotes-App\\app\\build\\intermediates\\merged_res\\debug\\drawable_three.png.flat",

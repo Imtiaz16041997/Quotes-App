@@ -2557,7 +2557,6 @@ mipmap quotes_launcher
 mipmap quotes_launcher_foreground
 mipmap quotes_launcher_round
 plurals mtrl_badge_content_description
-raw jump_quote
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
