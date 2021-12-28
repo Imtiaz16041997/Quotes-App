@@ -71,7 +71,7 @@ public class IntroActivity extends AppCompatActivity {
         final List<ScreenItem> mList = new ArrayList<>();
         boolean fresh_food = mList.add(new ScreenItem("Welcome To Quotes", "Developed By Ibnul Imtiaz", R.drawable.first));
         mList.add(new ScreenItem("Sharing Quotes", "The huge collection of life lessons quotes", R.drawable.second));
-        mList.add(new ScreenItem("Explore The Quotes", "To repeat the words that someone else has said or written", R.drawable.three));
+        mList.add(new ScreenItem("Explore The Quotes", "The words that someone else has said or written", R.drawable.three));
 
 
         // setup viewpager

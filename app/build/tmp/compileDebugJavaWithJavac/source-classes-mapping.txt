@@ -1,9 +1,8 @@
-com/imtiaz/quotes/OnboardScreen/IntroActivity.java
- com.imtiaz.quotes.OnboardScreen.IntroActivity
- com.imtiaz.quotes.OnboardScreen.IntroActivity$1
- com.imtiaz.quotes.OnboardScreen.IntroActivity$2
- com.imtiaz.quotes.OnboardScreen.IntroActivity$3
- com.imtiaz.quotes.OnboardScreen.IntroActivity$4
+com/imtiaz/quotes/adapter/QuotesAdapter.java
+ com.imtiaz.quotes.adapter.QuotesAdapter
+ com.imtiaz.quotes.adapter.QuotesAdapter$1
+ com.imtiaz.quotes.adapter.QuotesAdapter$2
+ com.imtiaz.quotes.adapter.QuotesAdapter$myViewHolder
 com/imtiaz/quotes/retrofit/quotesApi.java
  com.imtiaz.quotes.retrofit.quotesApi
 com/imtiaz/quotes/BuildConfig.java
@@ -20,8 +19,9 @@ com/imtiaz/quotes/MainActivity.java
  com.imtiaz.quotes.MainActivity
  com.imtiaz.quotes.MainActivity$1
  com.imtiaz.quotes.MainActivity$2
-com/imtiaz/quotes/adapter/QuotesAdapter.java
- com.imtiaz.quotes.adapter.QuotesAdapter
- com.imtiaz.quotes.adapter.QuotesAdapter$1
- com.imtiaz.quotes.adapter.QuotesAdapter$2
- com.imtiaz.quotes.adapter.QuotesAdapter$myViewHolder
+com/imtiaz/quotes/OnboardScreen/IntroActivity.java
+ com.imtiaz.quotes.OnboardScreen.IntroActivity
+ com.imtiaz.quotes.OnboardScreen.IntroActivity$1
+ com.imtiaz.quotes.OnboardScreen.IntroActivity$2
+ com.imtiaz.quotes.OnboardScreen.IntroActivity$3
+ com.imtiaz.quotes.OnboardScreen.IntroActivity$4
