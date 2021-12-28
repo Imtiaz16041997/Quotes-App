@@ -8,20 +8,20 @@ com/imtiaz/quotes/model/QuotesModel.java
  com.imtiaz.quotes.model.QuotesModel
 com/imtiaz/quotes/model/ScreenItem.java
  com.imtiaz.quotes.model.ScreenItem
-com/imtiaz/quotes/adapter/QuotesAdapter.java
- com.imtiaz.quotes.adapter.QuotesAdapter
- com.imtiaz.quotes.adapter.QuotesAdapter$1
- com.imtiaz.quotes.adapter.QuotesAdapter$2
- com.imtiaz.quotes.adapter.QuotesAdapter$myViewHolder
-com/imtiaz/quotes/OnboardScreen/IntroViewPagerAdapter.java
- com.imtiaz.quotes.OnboardScreen.IntroViewPagerAdapter
-com/imtiaz/quotes/MainActivity.java
- com.imtiaz.quotes.MainActivity
- com.imtiaz.quotes.MainActivity$1
- com.imtiaz.quotes.MainActivity$2
 com/imtiaz/quotes/OnboardScreen/IntroActivity.java
  com.imtiaz.quotes.OnboardScreen.IntroActivity
  com.imtiaz.quotes.OnboardScreen.IntroActivity$1
  com.imtiaz.quotes.OnboardScreen.IntroActivity$2
  com.imtiaz.quotes.OnboardScreen.IntroActivity$3
  com.imtiaz.quotes.OnboardScreen.IntroActivity$4
+com/imtiaz/quotes/OnboardScreen/IntroViewPagerAdapter.java
+ com.imtiaz.quotes.OnboardScreen.IntroViewPagerAdapter
+com/imtiaz/quotes/MainActivity.java
+ com.imtiaz.quotes.MainActivity
+ com.imtiaz.quotes.MainActivity$1
+ com.imtiaz.quotes.MainActivity$2
+com/imtiaz/quotes/adapter/QuotesAdapter.java
+ com.imtiaz.quotes.adapter.QuotesAdapter
+ com.imtiaz.quotes.adapter.QuotesAdapter$1
+ com.imtiaz.quotes.adapter.QuotesAdapter$2
+ com.imtiaz.quotes.adapter.QuotesAdapter$myViewHolder

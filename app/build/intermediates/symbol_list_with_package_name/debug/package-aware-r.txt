@@ -1298,6 +1298,7 @@ color primary_text_disabled_material_light
 color purple_200
 color purple_500
 color purple_700
+color quotes_launcher_background
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
@@ -2552,6 +2553,9 @@ menu example_menu2
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap quotes_launcher
+mipmap quotes_launcher_foreground
+mipmap quotes_launcher_round
 plurals mtrl_badge_content_description
 raw jump_quote
 string abc_action_bar_home_description
